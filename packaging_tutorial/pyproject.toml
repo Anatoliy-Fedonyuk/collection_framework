@@ -3,14 +3,14 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "example_package_YOUR_USERNAME_HERE"
-version = "0.0.1"
+name = "collect_framework_FEDONYUK_ANATOLIY"
+version = "1.0"
 authors = [
-  { name="Example Author", email="author@example.com" },
+  { name="Fedonyuk Anatoliy", email="dekorstyle0@gmail.com" },
 ]
-description = "A small example package"
+description = "This package counts the number of unique characters passed to a text or file!"
 readme = "README.md"
-requires-python = ">=3.7"
+requires-python = ">=3.10"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
@@ -18,5 +18,5 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/pypa/sampleproject"
-"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
+"Homepage" = "https://git.foxminded.ua/foxstudent105007/task-5-create-the-python-package"
+"Bug Tracker" = "https://git.foxminded.ua/foxstudent105007/task-5-create-the-python-package/-/issues"
