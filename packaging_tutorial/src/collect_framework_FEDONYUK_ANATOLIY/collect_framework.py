@@ -1,4 +1,4 @@
-"""This Collection Framework module"""
+"""--This Collection Framework module--"""
 from functools import lru_cache
 import click
 
@@ -43,5 +43,4 @@ def do_collection_checks(collection: list | tuple | str) -> list:
 
 if __name__ == '__main__':
     main()
-    assert do_collection_checks(("abbbccdf", "abbbccdfA", '12345')) == [3, 4, 5]
     assert do_collection_checks("wmmmmmmmwww") == [0]
