@@ -1,7 +1,7 @@
-"""--Pytest for CLI collect_framework--"""
+"""--Pytest for CLI collect_framework_FEDONYUK_ANATOLIY--"""
 import pytest
 from click.testing import CliRunner
-from collect_framework.collect_framework import main
+from packaging_tutorial.src.collect_framework.collect_framework import main
 
 
 def test_cli_string():
