@@ -1,6 +1,6 @@
 """--Pytest for module collect_framework_FEDONYUK_ANATOLIY--"""
 import pytest
-from packaging_tutorial.src.collect_framework import collect_framework
+from packaging_tutorial.src.collect_framework_FEDONYUK_ANATOLIY import collect_framework
 
 
 def test_get_number_char():
