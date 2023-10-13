@@ -18,5 +18,5 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "https://git.foxminded.ua/foxstudent105007/task-5-create-the-python-package"
-"Bug Tracker" = "https://git.foxminded.ua/foxstudent105007/task-5-create-the-python-package/-/issues"
+"Homepage" = "https://github.com/Anatoliy-Fedonyuk/collection_framework/tree/master"
+"Bug Tracker" = "https://github.com/Anatoliy-Fedonyuk/collection_framework/issues"
