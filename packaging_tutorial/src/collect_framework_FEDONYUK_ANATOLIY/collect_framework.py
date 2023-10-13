@@ -42,6 +42,6 @@ def do_collection_checks(collection: list | tuple | str) -> list:
 
 
 if __name__ == '__main__':
-    # main()
-    assert do_collection_checks("wmmmmmmmwww") == [0]
-    assert do_collection_checks("Толя") == [4]
+    main()
+    # assert do_collection_checks("wmmmmmmmwww") == [0]
+    # assert do_collection_checks("Толя") == [4]
