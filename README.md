@@ -1,12 +1,18 @@
-# This Project : my Task 5 - Create the python package
+# I called this project - Collection Framework
 
 ### Package "collect_framework_FEDONYUK_ANATOLIY" - this software package is an open source product and is distributed free of charge) 
-
 ### This package counts the number of unique characters passed to a text or text format file.
-### The package is designed both to work in normal mode python application and for user interaction CLI. 
-### To do this, the package implements a command line interface.
 
-### There are five commands implemented in the command line interface:
+#### The package is designed both to work in normal mode python application and for user interaction CLI. 
+#### To do this, the package implements a command line interface CLI using the "click" library.
+#### The application uses "pytest" test framework; the 16 tests obtained with it cover the entire application code!
+#### This was confirmed by the “coverage” utility - the coverage was 96%.
+#### Also, the most expensive function for the processor is optimized - by caching.
+#### Using the 'pip' and 'twin' utilities, a full-fledged Python package was created, with all dependencies saved in
+#### the 'requirements.txt' file, and uploaded to the index test.pypi.org
+
+
+#### There are five commands implemented in the command line interface:
 1. --string <your text> for direct text entry.
 2. -s <your text> short form of the string command for entering text directly.
 3. --file <path to file> to enter text directly from the user's file.
