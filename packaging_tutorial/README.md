@@ -3,7 +3,7 @@
 ### Package "collect_framework_FEDONYUK_ANATOLIY" - this software package is an open source product and is distributed free of charge) 
 
 ### This package counts the number of unique characters passed to a text or text format file.
-### The package is designed both to work in normal mode python application and for user interaction. 
+### The package is designed both to work in normal mode python application and for user interaction CLI. 
 ### To do this, the package implements a command line interface.
 
 ### There are five commands implemented in the command line interface:
