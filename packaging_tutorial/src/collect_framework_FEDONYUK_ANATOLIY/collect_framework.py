@@ -45,4 +45,3 @@ if __name__ == '__main__':
     # main()
     assert do_collection_checks("wmmmmmmmwww") == [0]
     assert do_collection_checks("Толя") == [4]
-
