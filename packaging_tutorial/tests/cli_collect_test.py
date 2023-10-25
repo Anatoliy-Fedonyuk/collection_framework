@@ -1,4 +1,4 @@
-"""--Pytest for CLI collect_framework_FEDONYUK_ANATOLIY--"""
+"""--Pytest for CLI application Collection Framework--"""
 import pytest
 from click.testing import CliRunner
 from packaging_tutorial.src.collect_framework_FEDONYUK_ANATOLIY.collect_framework import main
