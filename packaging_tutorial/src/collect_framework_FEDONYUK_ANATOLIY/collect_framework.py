@@ -69,4 +69,3 @@ if __name__ == '__main__':
     assert get_collection_number(["abbbccdf", " "]) == [3, 1]
     assert do_collection_checks(["abbbccdf", '#####!##################']) == [3, 1]
     logger.info("[INFO] All Assertion - is True !")
-
