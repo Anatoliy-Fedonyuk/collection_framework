@@ -1,4 +1,4 @@
-"""--Pytest for module collect_framework_FEDONYUK_ANATOLIY--"""
+"""--Pytest for module Collection Framework--"""
 import pytest
 from packaging_tutorial.src.collect_framework_FEDONYUK_ANATOLIY import collect_framework
 

@@ -1,9 +1,0 @@
-(venv) PS C:\Users\HP\Desktop\Projects Fox\collection_framework> coverage report -m
-Name                                                                              Stmts   Miss  Cover   Missing
----------------------------------------------------------------------------------------------------------------
-packaging_tutorial\src\collect_framework_FEDONYUK_ANATOLIY\__init__.py                0      0   100%
-packaging_tutorial\src\collect_framework_FEDONYUK_ANATOLIY\collect_framework.py      29      2    93%   46-47
-packaging_tutorial\tests\cli_collect_test.py                                         31      1    97%   46
-packaging_tutorial\tests\collect_test.py                                             50      1    98%   77
----------------------------------------------------------------------------------------------------------------
-TOTAL                                                                               110      4    96%

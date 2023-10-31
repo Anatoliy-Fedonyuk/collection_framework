@@ -1,4 +1,4 @@
-"""--Pytest for CLI collect_framework_FEDONYUK_ANATOLIY--"""
+"""--Pytest for CLI application Collection Framework--"""
 import pytest
 from click.testing import CliRunner
 from packaging_tutorial.src.collect_framework_FEDONYUK_ANATOLIY.collect_framework import main
@@ -17,6 +17,7 @@ def test_cli_file(tmp_path):
     file_content = 'hello world\n'
     file_path = tmp_path / 'test.txt'
     file_path.write_text(file_content)
+    # print(file_path)
     runner = CliRunner()
     result = runner.invoke(main, ['--file', str(file_path)])
     assert result.exit_code == 0

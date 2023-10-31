@@ -6,7 +6,7 @@
 #### The package is designed both to work in normal mode python application and for user interaction CLI. 
 #### To do this, the package implements a command line interface CLI using the "click" library.
 #### The application uses "pytest" test framework; the 16 tests obtained with it cover the entire application code!
-#### This was confirmed by the “coverage” utility - the coverage was 96%.
+#### This was confirmed by the “coverage” utility - the coverage was 96%, the tests used mocks to stub file reading.
 #### Also, the most expensive function for the processor is optimized - by caching.
 #### Using the 'pip' and 'twin' utilities, a full-fledged Python package was created, with all dependencies saved in
 #### the 'requirements.txt' file, and uploaded to the index test.pypi.org
